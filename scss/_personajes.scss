@@ -1,0 +1,42 @@
+
+#mainPersonajes{
+    h1{
+        font-family: 'Oswald', sans-serif;
+        font-weight: bolder;
+        font-size: 4rem ;
+        text-align: center;
+        text-transform: uppercase;
+        color: black;
+    }
+    h2{
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-size: 2rem;
+    }
+    #personajes{
+        display: flex;
+        flex-wrap: nowrap;
+        #imagenesPersonajes{
+            @include sizes(400px,);
+            border: 5px solid #dba90d;
+        }
+        #botCaracteristicas{
+            background-color: #dba90d;
+            @include sizes(200px,);
+            font-size: 18px;
+        }
+        #listaCaracteristicas{
+            font-family: 'Roboto', sans-serif;
+            @include sizes(70%,);
+            padding-left: 5%;
+            padding-right: 5%;
+            vertical-align:super;
+            text-align: justify;
+            padding-top: 1%;
+            padding-bottom: 2%;
+            font-size: 50%;
+        }
+    }
+
+
+ }

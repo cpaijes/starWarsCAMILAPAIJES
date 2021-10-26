@@ -1,0 +1,111 @@
+#mainBlog{
+    h1{
+        font-family: 'Oswald', sans-serif;
+        font-weight: bolder;
+        font-size: 4rem ;
+        text-align: center;
+        text-transform: uppercase;
+        color: $negro;
+    }
+    .subtituloBlog{
+        color: $amarillo;
+        font-family: 'Oswald', sans-serif;
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+.blogStarWarsImpares{
+    border: 5px solid $amarillo;
+    background-color: $blanco-transparencia;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-position: center;
+    .titulosSeccionesBlog{
+        color: $negro;
+        font-family: 'Oswald', sans-serif;
+        font-size: 200%;
+        padding-left: 2%;
+    }
+    .contenidoBlogImpares{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        .imagenesBlog{
+            @include sizes(400px,);
+            padding-left:2%;
+            padding-right: 2%;
+            padding-top: 2%;
+            padding-bottom: 2%;
+        }
+        .textosBlog{
+            font-family: 'Roboto', sans-serif;
+            @include sizes(80%,);
+            padding-left: 2%;
+            padding-right: 2%;
+            vertical-align:super;
+            text-align: justify;
+            padding-top: 1%;
+            padding-bottom: 2%;
+            font-size: 15px;
+            .trailerVisions{
+                text-decoration: none;
+                color: $amarillo;
+            }
+        }
+    }
+   
+
+}
+
+.blogStarWarsPares{
+    border: 5px solid $blanco-transparencia;
+    background-color: $amarillo;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-position: center;
+    .titulosSeccionesBlog{
+        color: $negro;
+        font-family: 'Oswald', sans-serif;
+        @include sizes(200%);
+        padding-left: 2%;
+    }
+    .contenidoBlogPares{
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        .imagenesBlog{
+            @include sizes(400px);
+            padding-left:2%;
+            padding-right: 2%;
+            padding-top: 2%;
+            padding-bottom: 2%;
+        }
+        .textosBlog{
+            font-family: 'Roboto', sans-serif;
+            @include sizes(80%);
+            padding-left: 2%;
+            padding-right: 2%;
+            vertical-align:super;
+            text-align: justify;
+            padding-top: 1%;
+            padding-bottom: 2%;
+            font-size: 15px;
+
+            .linksPares{
+            text-decoration: none;
+            color:$blanco ;
+            }
+
+        }
+        
+    }
+    
+}
+
+
+
+
+
+
+
+

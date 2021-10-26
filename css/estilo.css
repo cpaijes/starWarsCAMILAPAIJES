@@ -1,0 +1,386 @@
+.bodyIndex {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr, 1fr;
+      grid-template-columns: 1fr, 1fr;
+  -ms-grid-rows: .25fr, 1fr, 1fr, .25fr, .15fr;
+      grid-template-rows: .25fr, 1fr, 1fr, .25fr, .15fr;
+      grid-template-areas: "header header" "img1 img2" "img3 img4" "trailer trailer" "footer footer";
+  gap: 10px;
+}
+
+.bodyIndex .headerIndex {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: header;
+  font-size: 20px;
+}
+
+.bodyIndex .mainIndex {
+  padding: 3%;
+  padding-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bodyIndex .mainIndex .imagenesIndex {
+  margin: 1%;
+  padding: 5%;
+  width: 500px;
+  opacity: 1;
+}
+
+.bodyIndex .mainIndex .imagenesIndex .imagenesIndex:hover {
+  opacity: .5;
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  -webkit-transition: all 1.5s ease;
+  transition: all 1.5s ease;
+}
+
+.bodyIndex .mainIndex .imagenesIndex .primera {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: img1;
+}
+
+.bodyIndex .mainIndex .imagenesIndex .segunda {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: img2;
+}
+
+.bodyIndex .mainIndex .imagenesIndex .tercera {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: img3;
+}
+
+.bodyIndex .mainIndex .imagenesIndex .cuarta {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: img4;
+}
+
+.bodyIndex .trailerIndex {
+  background-color: #fcfcfcd2;
+  margin: 5%;
+  padding: 5%;
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: trailer;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.bodyIndex .trailerIndex .trailerYoutube {
+  width: 100%;
+  height: 600px;
+}
+
+header {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+}
+
+header .logoStarWars {
+  margin: auto;
+  display: block;
+  width: 12%;
+}
+
+header .menu {
+  list-style-type: none;
+  background-color: #fcfcfcd2;
+  padding: 0;
+  width: 100%;
+  margin: auto;
+  display: inline-block;
+  text-align: center;
+}
+
+header .menu li {
+  text-align: center;
+  display: inline-block;
+}
+
+header .menu li a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+header .menu .menu li a:hover {
+  background-color: #dba90d;
+  color: #5c5c5c;
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+main {
+  color: black;
+  background-color: #fcfcfcd0;
+  background-position: center;
+  padding-top: 12%;
+  padding-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#tablaSaga #tituloSaga {
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+#tablaSaga #paresSaga {
+  background-color: #dba80d50;
+}
+
+#tablaSaga #paresSaga #imagenesSaga {
+  width: 150px;
+}
+
+#tablaSaga #paresSaga .textoSaga {
+  font-size: 12px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+#tablaSaga #imparesSaga {
+  background-color: none;
+}
+
+#tablaSaga #imparesSaga #imagenesSaga {
+  width: 150px;
+}
+
+#tablaSaga #imparesSaga .textoSaga {
+  font-size: 12px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+main h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bolder;
+  font-size: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+}
+
+main .subtituloBlog {
+  color: #dba90d;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.blogStarWarsImpares {
+  border: 5px solid #dba90d;
+  background-color: #dfdbdbd2;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-position: center;
+}
+
+.blogStarWarsImpares .titulosSeccionesBlog {
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  font-size: 200%;
+  padding-left: 2%;
+}
+
+.blogStarWarsImpares .contenidoBlogImpares {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.blogStarWarsImpares .contenidoBlogImpares .imagenesBlog {
+  width: 400px;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.blogStarWarsImpares .contenidoBlogImpares .textosBlog {
+  font-family: 'Roboto', sans-serif;
+  width: 80%;
+  padding-left: 2%;
+  padding-right: 2%;
+  vertical-align: super;
+  text-align: justify;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  font-size: 15px;
+}
+
+.blogStarWarsImpares .contenidoBlogImpares .textosBlog .trailerVisions {
+  text-decoration: none;
+  color: #dba90d;
+}
+
+.blogStarWarsPares {
+  border: 5px solid #dfdbdbd2;
+  background-color: #dba90d;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-position: center;
+}
+
+.blogStarWarsPares .titulosSeccionesBlog {
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  font-size: 200%;
+  padding-left: 2%;
+}
+
+.blogStarWarsPares .contenidoBlogPares {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.blogStarWarsPares .contenidoBlogPares .imagenesBlog {
+  width: 400px;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.blogStarWarsPares .contenidoBlogPares .textosBlog {
+  font-family: 'Roboto', sans-serif;
+  width: 80%;
+  padding-left: 2%;
+  padding-right: 2%;
+  vertical-align: super;
+  text-align: justify;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  font-size: 15px;
+}
+
+.blogStarWarsPares .contenidoBlogPares .textosBlog .linksPares {
+  text-decoration: none;
+  color: #dfdbdb;
+}
+
+#mainPersonajes h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bolder;
+  font-size: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+}
+
+#mainPersonajes h2 {
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+}
+
+#mainPersonajes #personajes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+#mainPersonajes #personajes #imagenesPersonajes {
+  width: 400px;
+  border: 5px solid #dba90d;
+}
+
+#mainPersonajes #personajes #botCaracteristicas {
+  background-color: #dba90d;
+  width: 200px;
+  font-size: 18px;
+}
+
+#mainPersonajes #personajes #listaCaracteristicas {
+  font-family: 'Roboto', sans-serif;
+  width: 70%;
+  padding-left: 5%;
+  padding-right: 5%;
+  vertical-align: super;
+  text-align: justify;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  font-size: 50%;
+}
+
+#mainClubFans .formularioClubFans {
+  font-family: 'Roboto', sans-serif;
+  margin: 2%;
+  padding: 5%;
+  border: 5px solid #dba90d;
+  font-size: 18px;
+}
+
+footer {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  background-color: black;
+  list-style-type: none;
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: footer;
+  font-size: 15px;
+}
+
+footer .contactoFooter {
+  margin: 5px;
+  padding-left: 15px;
+}
+
+footer .contactoFooter .listaContacto {
+  list-style-type: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_1280.png);
+}
+/*# sourceMappingURL=estilo.css.map */

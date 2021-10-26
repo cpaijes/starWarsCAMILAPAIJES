@@ -1,0 +1,73 @@
+.bodyIndex{
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: .25fr, 1fr, 1fr, .25fr, .15fr;
+    grid-template-areas: 
+    "header header"
+    "img1 img2"
+    "img3 img4"
+    "trailer trailer"
+    "footer footer";
+    gap: 10px;
+
+    .headerIndex{
+        grid-area: header;
+        font-size: 20px;
+    }
+
+    .mainIndex{
+        padding: 3%;
+        padding-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 15%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .imagenesIndex{
+            margin: 1%;
+            padding: 5%;
+            @include sizes(500px,);
+            opacity: 1;
+            .imagenesIndex:hover{
+                opacity: .5;
+                transform: scale(1.1, 1.1);
+                transition: all 1.5s ease;
+            }
+            .primera{
+                grid-area: img1;
+            }
+            .segunda{
+                grid-area: img2;
+            }
+            .tercera{
+                grid-area: img3;
+            }
+            .cuarta{
+                grid-area: img4;
+            }
+    }
+            
+        }
+            
+    .trailerIndex{
+        background-color:$blanco-transparencia;
+        margin: 5%;
+        padding: 5%;
+        grid-area: trailer;
+        align-content: center;
+        .trailerYoutube{
+            @include sizes(100%, 600px);
+        }
+    }
+}
+
+
+
+ 
+
+
+
+
+

@@ -1,0 +1,17 @@
+footer{
+    color: $blanco;
+    font-family: 'Oswald', sans-serif;
+    background-color: $negro;
+    list-style-type: none;
+    grid-area: footer;
+    font-size: 15px;
+    .contactoFooter{
+        margin: 5px;
+        padding-left: 15px;
+        .listaContacto{
+            list-style-type: none;
+        }
+    }
+}
+
+

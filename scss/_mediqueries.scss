@@ -1,0 +1,597 @@
+@media (max-width: 576px){
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    h4{
+        font-size: 0.5rem;
+    }
+
+    /*header*/
+    header{
+        font-size: 10px;
+    }
+    
+    .menu li a{
+        padding: 10px;
+    }
+    .logoStarWars{
+        width: 15%;
+    }
+
+    /*index*/
+    .headerIndex{
+        font-size: 10px;
+    }
+    .imagenesIndex{
+        width: 300px;
+    }   
+    .menu li a{ 
+        padding: 10px;
+    } 
+    .trailerYoutube{
+        width: 100%;
+        height: 200px;
+    }
+
+    /*saga*/
+    #imagenesSaga{
+        width: 50px;
+    }
+    .textoSaga{
+        font-size: 8px;
+    }
+    #tituloSaga{
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-size: 0.75rem;
+        text-align: center;
+    }
+
+
+    /*personajes*/
+    #imagenesPersonajes{
+        width: 150px;
+        border: 2.5px solid $amarillo ;
+        
+    }
+
+    #botCaracteristicas{
+        width: 100px;
+        font-size: 8px;
+    }
+
+    /*Blog*/
+    .blogStarWarsImpares{
+        border: 2.5px solid $amarillo ;
+    }
+    .blogStarWarsPares{
+        border: 2.5px solid $blanco;
+    }
+    .subtituloBlog{
+        font-size: 1rem;
+    }
+    .imagenesBlog{
+        width: 200px;
+    }
+    .titulosSeccionesBlog{
+        font-size: 100%;
+    }
+    .textosBlog{
+        font-size: 5px;
+    }
+    .contenidoBlogImpares{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contenidoBlogPares{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /*club de fans*/
+
+    .formularioClubFans{
+        font-size: 8px;
+    }
+
+    /*footer*/
+    footer{
+        font-size: 6px;
+    }
+    .contactoFooter{
+        margin: 2px;
+        font-size: 0.5rem;
+    }
+}
+
+@media (min-width: 576px){
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    h4{
+        font-size: 1rem;
+    }
+
+    /*header*/
+    header{
+        font-size: 15px;
+    }
+    
+    .menu li a{
+        padding: 10px;
+    }
+    .logoStarWars{
+        width: 15%;
+    }
+
+    /*index*/
+    .headerIndex{
+        font-size: 15px;
+    }
+    .imagenesIndex{
+        width: 600px;
+    }   
+    .menu li a{ 
+        padding: 10px;
+    } 
+    .trailerYoutube{
+        width: 100%;
+        height: 300px;
+    }
+
+    /*saga*/
+    #imagenesSaga{
+        width: 90px;
+    }
+    .textoSaga{
+        font-size: 10px;
+    }
+    #tituloSaga{
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+
+    /*personajes*/
+    #imagenesPersonajes{
+        width: 175px;
+        border: 4px solid $amarillo ;
+        
+    }
+
+    #botCaracteristicas{
+        width: 120px;
+        font-size: 10px;
+    }
+
+    /*Blog*/
+    .blogStarWarsImpares{
+        border: 3px solid $amarillo ;
+    }
+    .blogStarWarsPares{
+        border: 3px solid $blanco
+    }
+    .subtituloBlog{
+        font-size: 1.5rem;
+    }
+    .imagenesBlog{
+        width: 300px;
+    }
+    .titulosSeccionesBlog{
+        font-size: 100%;
+    }
+    .textosBlog{
+        font-size: 8px;
+    }
+    .contenidoBlogImpares{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contenidoBlogPares{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /*club de fans*/
+
+    .formularioClubFans{
+        font-size: 10px;
+    }
+
+    /*footer*/
+    footer{
+        font-size: 10px;
+    }
+    .contactoFooter{
+        margin: 2px;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 768px){
+    h1{
+        font-size: 4rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h4{
+        font-size: 0.5rem;
+    }
+
+    /*header*/
+    header{
+        font-size: 15px;
+    }
+    
+    .menu li a{
+        padding: 10px;
+    }
+    .logoStarWars{
+        width: 15%;
+    }
+
+    /*index*/
+    .headerIndex{
+        font-size: 15px;
+    }
+      
+    .menu li a{ 
+        padding: 10px;
+    } 
+    .trailerYoutube{
+        width: 100%;
+        height: 300px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .mainIndex{
+        padding: 2%;
+        padding-top: 2%;
+        margin-top: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        
+    }
+     .imagenesIndex{
+        margin: 1%;
+        padding: 2%;
+        width: 500px;
+        opacity: 1;
+        }
+
+    /*saga*/
+
+    #tablaSaga{
+        padding-top:15%;
+    }
+    #imagenesSaga {
+        width: 150px;
+    }
+    .textoSaga{
+        font-size: 12px;
+    }
+    #tituloSaga{
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    /*personajes*/
+    #imagenesPersonajes{
+        width: 280px;
+        border: 4px solid $amarillo ;
+        
+    }
+
+    #botCaracteristicas{
+        width: 150px;
+        font-size: 14px;
+    }
+
+    /*Blog*/
+    .blogStarWarsImpares{
+        border: 4px solid $amarillo ;
+    }
+    .blogStarWarsPares{
+        border: 4px solid $blanco;
+    }
+    .subtituloBlog{
+        font-size: 1.75rem;
+    }
+    .imagenesBlog{
+        width: 300px;
+    }
+    .titulosSeccionesBlog{
+        font-size: 100%;
+    }
+    .textosBlog{
+        font-size: 9px;
+    }
+    .contenidoBlogImpares{
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    .contenidoBlogPares{
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    /*club de fans*/
+
+    .formularioClubFans{
+        font-size: 12px;
+    }
+
+    /*footer*/
+    footer{
+        font-size: 12px;
+    }
+    .contactoFooter{
+        margin: 2px;
+        font-size: 0.5rem;
+    }
+}
+
+@media (min-width: 992px){
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 4rem;
+    }
+    h4{
+        font-size: 1rem;
+    }
+
+    /*header*/
+    header{
+        font-size: 20px;
+    }
+    
+    .menu li a{
+        padding: 14px;
+    }
+    .logoStarWars{
+        width: 15%;
+    }
+
+    /*index*/
+    .headerIndex{
+        font-size: 20px;
+    }
+      
+    .menu li a{ 
+        padding: 14px;
+    } 
+    .trailerYoutube{
+        width: 100%;
+        height: 400px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .mainIndex{
+        padding: 2%;
+        padding-top: 2%;
+        margin-top: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        
+    }
+     .imagenesIndex{
+        margin: 1%;
+        padding: 5%;
+        width: 400px;
+        opacity: 1;
+        }
+
+    /*saga*/
+
+    #tablaSaga{
+        padding-top: 17%;
+    }
+    #imagenesSaga {
+        width: 175px;
+    }
+    .textoSaga{
+        font-size: 15px;
+    }
+    #tituloSaga{
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    /*personajes*/
+    #imagenesPersonajes{
+        width: 350px;
+        border: 5px solid $amarillo ;
+        
+    }
+
+    #botCaracteristicas{
+        width: 200px;
+        font-size: 20px;
+    }
+
+    /*Blog*/
+    .blogStarWarsImpares{
+        border: 5px solid $amarillo ;
+    }
+    .blogStarWarsPares{
+        border: 5px solid $blanco;
+    }
+    .subtituloBlog{
+        font-size: 2rem;
+    }
+    .imagenesBlog{
+        width: 400px;
+    }
+    .titulosSeccionesBlog{
+        font-size: 30px;
+    }
+    .textosBlog{
+        font-size: 12px;
+    }
+    .contenidoBlogImpares{
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    .contenidoBlogPares{
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    /*club de fans*/
+
+    .formularioClubFans{
+        font-size: 18px;
+    }
+
+    /*footer*/
+    footer{
+        font-size: 20px;
+    }
+    .contactoFooter{
+        margin: 2px;
+        font-size: 15px;
+    }
+}
+
+
+
+@media (min-width: 1200px){
+
+ /*header*/
+ header{
+    font-size: 25px;
+}
+
+.menu li a{
+    padding: 16px;
+}
+.logoStarWars{
+    width: 15%;
+}
+
+/*index*/
+.headerIndex{
+    font-size: 25px;
+}
+  
+.menu li a{ 
+    padding: 16px;
+} 
+.trailerYoutube{
+    width: 100%;
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.mainIndex{
+    padding: 2%;
+    padding-top: 2%;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    
+}
+ .imagenesIndex{
+    margin: 1%;
+    padding: 5%;
+    width: 500px;
+    opacity: 1;
+    }
+
+/*saga*/
+
+#tablaSaga{
+    padding-top: 17%;
+}
+#imagenesSaga {
+    width: 225px;
+}
+.textoSaga{
+    font-size: 16px;
+}
+#tituloSaga{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/*personajes*/
+#imagenesPersonajes{
+    width: 400px;
+    border: 5px solid $amarillo ;
+    
+}
+
+#botCaracteristicas{
+    width: 250px;
+    font-size: 25px;
+}
+
+/*Blog*/
+.blogStarWarsImpares{
+    border: 5px solid $amarillo ;
+}
+.blogStarWarsPares{
+    border: 5px solid $blanco;
+}
+.subtituloBlog{
+    font-size: 3rem;
+    padding-top: 2%;
+}
+.imagenesBlog{
+    width: 450px;
+}
+.titulosSeccionesBlog{
+    font-size: 35px;
+}
+.textosBlog{
+    font-size: 14px;
+}
+.contenidoBlogImpares{
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.contenidoBlogPares{
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+/*club de fans*/
+
+.formularioClubFans{
+    font-size: 20px;
+}
+
+/*footer*/
+footer{
+    font-size: 20px;
+}
+.contactoFooter{
+    margin: 2px;
+    font-size: 15px;
+}
+}
+
+
