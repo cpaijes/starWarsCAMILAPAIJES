@@ -1,4 +1,7 @@
 @media (max-width: 576px){
+    body{
+        background-image: url(https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_1280.png);
+    }
     h1{
         font-size: 2rem;
     }
@@ -27,6 +30,11 @@
     }
     .imagenesIndex{
         width: 300px;
+        .imagenesIndex:hover{
+            opacity: .5;
+            transform: scale(1.1, 1.1);
+            transition: all 1.5s ease;
+        }
     }   
     .menu li a{ 
         padding: 10px;
@@ -45,7 +53,7 @@
     }
     #tituloSaga{
         color: black;
-        font-family: 'Oswald', sans-serif;
+        font-family: $titulos;
         font-size: 0.75rem;
         text-align: center;
     }
@@ -108,6 +116,9 @@
 }
 
 @media (min-width: 576px){
+    body{
+        background-image: url(https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_1280.png);
+    }
     h1{
         font-size: 2rem;
     }
@@ -136,6 +147,11 @@
     }
     .imagenesIndex{
         width: 600px;
+        .imagenesIndex:hover{
+            opacity: .5;
+            transform: scale(1.1, 1.1);
+            transition: all 1.5s ease;
+        }
     }   
     .menu li a{ 
         padding: 10px;
@@ -154,7 +170,7 @@
     }
     #tituloSaga{
         color: black;
-        font-family: 'Oswald', sans-serif;
+        font-family: $titulos;
         font-size: 1rem;
         text-align: center;
     }
@@ -217,6 +233,9 @@
 }
 
 @media (min-width: 768px){
+    body{
+        background-image: url(https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_1280.png);
+    }
     h1{
         font-size: 4rem;
     }
@@ -268,6 +287,11 @@
         padding: 2%;
         width: 500px;
         opacity: 1;
+        .imagenesIndex:hover{
+            opacity: .5;
+            transform: scale(1.1, 1.1);
+            transition: all 1.5s ease;
+        }
         }
 
     /*saga*/
@@ -283,7 +307,7 @@
     }
     #tituloSaga{
         color: black;
-        font-family: 'Oswald', sans-serif;
+        font-family: $titulos;
         font-size: 1.25rem;
         text-align: center;
     }
@@ -345,6 +369,9 @@
 }
 
 @media (min-width: 992px){
+    body{
+        background-image: url(https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_1280.png);
+    }
     h1{
         font-size: 2rem;
     }
@@ -396,6 +423,11 @@
         padding: 5%;
         width: 400px;
         opacity: 1;
+        .imagenesIndex:hover{
+            opacity: .5;
+            transform: scale(1.1, 1.1);
+            transition: all 1.5s ease;
+        }
         }
 
     /*saga*/
@@ -411,7 +443,7 @@
     }
     #tituloSaga{
         color: black;
-        font-family: 'Oswald', sans-serif;
+        font-family: $titulos;
         font-size: 1.25rem;
         text-align: center;
     }
@@ -476,6 +508,11 @@
 
 @media (min-width: 1200px){
 
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_1280.png);
+}
+}
+
  /*header*/
  header{
     font-size: 25px;
@@ -483,6 +520,12 @@
 
 .menu li a{
     padding: 16px;
+}
+.menu li a:hover{
+    background-color: $amarillo;
+    color: rgb(92, 92, 92);
+    transform: scale(1.2, 1.2);
+    transition: all .5s ease;
 }
 .logoStarWars{
     width: 15%;
@@ -518,6 +561,11 @@
     width: 500px;
     opacity: 1;
     }
+.imagenesIndex:hover{
+        opacity: .5;
+        transform: scale(1.1, 1.1);
+        transition: all 1.5s ease;
+    }
 
 /*saga*/
 
@@ -532,7 +580,7 @@
 }
 #tituloSaga{
     color: black;
-    font-family: 'Oswald', sans-serif;
+    font-family: $titulos;
     font-size: 2rem;
     text-align: center;
 }
@@ -592,6 +640,6 @@ footer{
     margin: 2px;
     font-size: 15px;
 }
-}
+
 
 

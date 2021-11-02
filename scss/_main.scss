@@ -4,7 +4,6 @@ main{
     background-position: center;
     padding-top: 12%;
     padding-bottom: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+    @include margin(5%, 5%);
 }
 

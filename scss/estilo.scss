@@ -8,13 +8,18 @@
 @import "footer";
 @import "mediaqueries";
 @import "colores";
+@import "tipografias";
 
 @mixin sizes($width, $height) {
     height: $height;
     width: $width;
  }
+@mixin margin ($m-left, $m-right){
+    margin-left: $m-left;
+    margin-right: $m-right;
+}
 
- 
+
 
 *{
     margin: 0;

@@ -2,7 +2,7 @@
 #tablaSaga{
     #tituloSaga{
         color: black;
-        font-family: 'Oswald', sans-serif;
+        font-family: $titulos;
         font-size: 2rem;
         text-align: center;
     }
@@ -15,7 +15,7 @@
         .textoSaga{
             font-size: 12px;
             text-align: center;
-            font-family: 'Roboto', sans-serif;
+            font-family: $textos;
         }
     
     }
@@ -27,7 +27,7 @@
         .textoSaga{
             font-size: 12px;
             text-align: center;
-            font-family: 'Roboto', sans-serif;
+            font-family: $textos;
         }
     }
 }

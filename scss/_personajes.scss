@@ -1,7 +1,7 @@
 
 #mainPersonajes{
     h1{
-        font-family: 'Oswald', sans-serif;
+        font-family: $titulos;
         font-weight: bolder;
         font-size: 4rem ;
         text-align: center;
@@ -10,7 +10,7 @@
     }
     h2{
         color: black;
-        font-family: 'Oswald', sans-serif;
+        font-family: $titulos;
         font-size: 2rem;
     }
     #personajes{
@@ -26,7 +26,7 @@
             font-size: 18px;
         }
         #listaCaracteristicas{
-            font-family: 'Roboto', sans-serif;
+            font-family: $textos;
             @include sizes(70%,);
             padding-left: 5%;
             padding-right: 5%;
